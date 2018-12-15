@@ -8,12 +8,33 @@ baseName = "index"
 mediaType = "text/html"
 isHTML = true
 
-[[menu.main]]
+name = "reveal-hugo"
+license = "MIT"
+licenselink = "https://github.com/dzello/reveal-hugo/blob/master/LICENSE"
+homepage = "https://reveal-hugo.dzello.com/"
+tags = ["presentation", "revealjs"]
+features = ["presentation"]
+
+[author]
+name = "Josh Dzielak"
+homepage = "https://dzello.com/"
+
+[original]
+name = "reveal.js"
+homepage = "https://revealjs.com"
+repo = "https://github.com/hakimel/reveal.js/"
+
+ [[menu.main]]
   name = "Home"
   url  = "/"
   weight = 0
 
-[[menu.main]]
+ [[menu.main]]
+  name = "About"
+  url  = "about"
+  weight = 5
+
+ [[menu.main]]
   name = "Blog"
   url  = "post/"
   weight = 10
