@@ -1,4 +1,4 @@
-import Reveal from 'reveal.js'
+@import Reveal from 'reveal.js'
 
 var RevealAnything = window.RevealAnything || (function(){
 	function parseJSON(str) {
