@@ -2,7 +2,18 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "reveal-hugo"
+
 [outputFormats.Reveal]
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
+
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 0
+
+[[menu.main]]
+  name = "Blog"
+  url  = "post/"
+  weight = 10
