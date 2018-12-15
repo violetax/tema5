@@ -1,3 +1,5 @@
+import Reveal from 'reveal.js'
+
 var RevealAnything = window.RevealAnything || (function(){
 	function parseJSON(str) {
 	    str = str.replace(/(\r\n|\n|\r|\t)/gm,""); // remove lien breaks and tabs
