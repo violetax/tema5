@@ -28,13 +28,14 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   font: inherit;
   vertical-align: baseline; 
 
-  background-color: #4682B4;
+/*  background-color: #4682B4; */
 
 }
 
 .reveal article, .reveal aside, .reveal details, .reveal figcaption, .reveal figure,
 .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal section {
-  display: block; }
+  display: block; 
+}
 
 /*********************************************
  * GLOBAL STYLES
