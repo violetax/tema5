@@ -18,7 +18,7 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 .reveal fieldset, .reveal form, .reveal label, .reveal legend,
 .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td,
 .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed,
-.reveal figure, .reveal figcaption, .reveal header, .reveal hgroup,
+.reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup,
 .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary,
 .reveal time, .reveal mark, .reveal audio, .reveal video {
   margin: 0;
@@ -27,8 +27,6 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-
-.reveal footer { font-size: 10%; }
 
 .reveal article, .reveal aside, .reveal details, .reveal figcaption, .reveal figure,
 .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal section {
@@ -52,6 +50,10 @@ body {
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
+.reveal .slides footer {
+	font-size: 10%;
+}
+
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
