@@ -39,7 +39,10 @@
     {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
 	<style>
 		footer { position: fixed; 
-			    bottom:0%;}
+		bottom:0%;
+	font-size: 10px;
+display: block;
+}
 	</style>
   </head>
   <body>
@@ -55,7 +58,9 @@
            create layouts/partials/{section}/reveal-hugo/end.html -->
       {{- $sectionHeadPartial := printf "%s/reveal-hugo/end" (.Page.Section | default "home") -}}
       {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
-	<footer>Investigación científica</footer>
+	  <footer>Investigación científica - Máster de Investigación en Ciberseguridad <br>
+	 Universidad de León 
+	  </footer>
     </div>
     <script type="application/json" id="reveal-hugo-site-params">{{ jsonify .Site.Params.reveal_hugo | safeJS }}</script>
     <script type="application/json" id="reveal-hugo-page-params">{{ jsonify .Page.Params.reveal_hugo | safeJS }}</script>
