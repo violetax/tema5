@@ -37,20 +37,12 @@
          create layouts/partials/{section}/reveal-hugo/head.html -->
     {{- $sectionHeadPartial := printf "%s/reveal-hugo/head" (.Page.Section | default "home") -}}
     {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
-	<style>
-		footer { 
-		position: fixed; 
-		bottom:0%;
-		font-size: 1em;
-		display: block;
-		background-color: #4682B4;
-}
+<!-- 	<style> footer { position: fixed; bottom:0%; font-size: xx-small; display: block; background-color: #000; } -->
 	</style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-		  <p>hola caracola</p>
         {{- block "main" . -}}{{- end -}}
       </div>
       <!-- To insert markup at the end of the .reveal tag for all presentations,
@@ -60,9 +52,6 @@
            create layouts/partials/{section}/reveal-hugo/end.html -->
       {{- $sectionHeadPartial := printf "%s/reveal-hugo/end" (.Page.Section | default "home") -}}
       {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
-	  <footer style="font-size: 1em">Investigación científica - Máster de Investigación en Ciberseguridad <br>
-	 Universidad de León 
-	  </footer>
     </div>
     <script type="application/json" id="reveal-hugo-site-params">{{ jsonify .Site.Params.reveal_hugo | safeJS }}</script>
     <script type="application/json" id="reveal-hugo-page-params">{{ jsonify .Page.Params.reveal_hugo | safeJS }}</script>
