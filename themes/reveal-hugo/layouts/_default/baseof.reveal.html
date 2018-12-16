@@ -51,8 +51,8 @@
            create layouts/partials/{section}/reveal-hugo/end.html -->
       {{- $sectionHeadPartial := printf "%s/reveal-hugo/end" (.Page.Section | default "home") -}}
       {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
-    </div>
 	<footer>Investigación científica</footer>
+    </div>
     <script type="application/json" id="reveal-hugo-site-params">{{ jsonify .Site.Params.reveal_hugo | safeJS }}</script>
     <script type="application/json" id="reveal-hugo-page-params">{{ jsonify .Page.Params.reveal_hugo | safeJS }}</script>
     <script type="text/javascript"> window.revealHugoDependencies = { dependencies: [ { src: '{{ $reveal_cdn }}/lib/js/classList.js', condition: function() { return !document.body.classList; } },
