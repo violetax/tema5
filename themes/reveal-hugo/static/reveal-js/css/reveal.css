@@ -50,7 +50,7 @@ body {
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
-.reveal .slides footer {
+.reveal .slides section .footer {
 	font-size: 10%;
 }
 
