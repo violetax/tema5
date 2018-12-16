@@ -58,7 +58,7 @@ display: block;
            create layouts/partials/{section}/reveal-hugo/end.html -->
       {{- $sectionHeadPartial := printf "%s/reveal-hugo/end" (.Page.Section | default "home") -}}
       {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
-	  <footer>Investigación científica - Máster de Investigación en Ciberseguridad <br>
+	  <footer style="font-size: 1em">Investigación científica - Máster de Investigación en Ciberseguridad <br>
 	 Universidad de León 
 	  </footer>
     </div>
