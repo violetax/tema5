@@ -44,8 +44,10 @@ body {
 body {
   position: relative;
   line-height: 1;
-  background-color: #fff;
-  color: #000; }
+  background-color: #4682B4; /* #fff; */
+  color: #000; 
+
+}
 
 footer {
 	font-size: 1em; 
