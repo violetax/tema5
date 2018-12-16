@@ -1,7 +1,6 @@
 +++
 
-title = "My presentation"
-
+title = "Licencias europeas Software Libre"
 outputs = ["Reveal"]
 
 +++
@@ -9,6 +8,9 @@ outputs = ["Reveal"]
 # Hello world!
 
 This is my first slide.
+
+![Example image](/static/images/logojoinup.png)
+
 
 ---
 
