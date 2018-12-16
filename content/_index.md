@@ -9,7 +9,7 @@ outputs = ["Reveal"]
 
 This is my first slide.
 
-![/static/images/logojoinup.png](/static/images/logojoinup.png)
+![Example Image](/images/logojoinup.png)
 
 
 ---
