@@ -18,6 +18,15 @@ This is my first slide.
 
 bla bla bla
 
+<div>
+<p>Hola</p>
+<ul>
+	<li>this is an item</li>
+	<li>this is another item</li>
+</ul>
+
+</div>
+
 ---
 
 # GONZÁLEZ
