@@ -47,13 +47,13 @@ body {
   background-color: #fff;
   color: #000; }
 
+footer {
+	font-size: 1em; 
+}
+
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
-.reveal .slides section .footer {
-	font-size: 10%;
-}
-
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
