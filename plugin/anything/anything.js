@@ -22,7 +22,7 @@ var RevealAnything = window.RevealAnything || (function(){
 
 // Slide every five seconds
 Reveal.configure({
-   autoSlide: 5000
+   //autoSlide: 5000
 });
 
 

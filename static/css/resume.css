@@ -61,13 +61,12 @@ p.lead {
   }
 
 
-
 .thi {
 	  color: #FFFF00 ;
   }
 
 .thil {
-	      color: #FFFF00 ;
+	      color: red ;
 	 text-transform: lowercase;  
 	  }
 .art {  color: black; 

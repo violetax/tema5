@@ -8,4 +8,4 @@ baseName = "index"
 mediaType = "text/html"
 isHTML = true
 
-
+sectionPagesMenu = "main"
